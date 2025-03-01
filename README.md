@@ -1,1 +1,1 @@
-# odin-landing-page
+Creating a web page according to a provided design
