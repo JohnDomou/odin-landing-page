@@ -2,8 +2,8 @@ body {
     display: flex;
     flex-direction: column;
     font-family:  Roboto;
-    
 }
+p { margin: 0px;}
 .hero {
     display: flex;
     flex-direction: column;
@@ -11,20 +11,23 @@ body {
     color: white;
     padding: 100px;
     gap: 55px;
-    padding-top: 15px;
+    padding-top: 20px;
 }
 .heroone, .herotwo {
     display: flex;
     gap: 35px;
 }
+a { font-size: 18px; text-decoration: none; color: #E5E7EB;}
+.links{display: flex; gap: 15px;}
 .headerleft, .headerright {
-    flex: 1;
+     flex: 1;
 }
 .headerright {
     background-color: gray;
     display: flex;
     align-items: center;
     justify-content: center;
+    max-width: 420px;
 }
 .heromaintxt {
     font-size: 48px;
@@ -45,6 +48,97 @@ body {
 .bone {
     background-color: #3882F6;
     border: none;
-    border-radius: 6px;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 35px;
+    margin-top: 15px;
+    font-weight: 600;
 }
-a { flex: 1; text-decoration: none; color: #E5E7EB;}
+.top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 0px 40px 0px;
+    gap: 25px;
+}
+.topheader {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+.imgs {
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+.img {
+    display: flex;
+    flex-direction: column;
+    max-width: 150px;
+    gap: 10px;
+}
+.mimg {
+    height: 150px;
+    width: 145px;
+    border: 5px solid;
+    border-color: rgb(16, 137, 218);
+    border-radius: 19px;
+}
+.imgtxt {
+    display: flex;
+    text-align: center;
+}
+.mid {
+    background-color: #E5E7EB;
+    padding: 120px;
+    justify-items: center;
+}
+.secondarymid {
+    display: flex;
+    flex-direction: column;
+    max-width: 813px;
+}
+.quote {
+    margin: 0px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;
+}
+.origin {
+    margin: 0;
+    font-size: 25px;
+    font-weight: 500;
+    align-self: flex-end;
+}
+.bot {
+    padding: 10% 15%;
+    justify-items: center;
+}
+.secondarybot {
+    display: flex;
+    background-color: #3882F6;
+    padding: 40px 150px;
+    align-items: center;
+    border-radius: 10px;
+    gap: 100px;
+}
+.first {
+   font-size: 20px; 
+   color: white;
+   font-weight: 500;
+}
+.second {
+    color: white;
+}
+.btwo {
+    min-width: 125px;
+    background-color: #3882F6;
+    border-style: solid;
+    border-width: 3px;
+    border-color:  white;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 35px;
+    font-weight: 600;
+}
